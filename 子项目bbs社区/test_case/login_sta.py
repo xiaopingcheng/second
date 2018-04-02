@@ -9,7 +9,7 @@ from 自动化项目实战.子项目bbs社区.test_case.models import myunit, fu
 
 class loginTest(myunit.MyTest):
     '''
-    163邮箱登录测试
+    163邮箱自动登录测试
     '''
     def user_login_verify(self, username='', password=''):
         login(self.driver).user_login(username, password)
