@@ -3,8 +3,8 @@ import unittest, random, sys
 
 sys.path.append(r'E:\PycharmProjects\自动化项目实战')
 #sys.path.append('./page_obj')
-from 自动化项目实战.子项目bbs社区.test_case.page_obj.loginPage import login
-from 自动化项目实战.子项目bbs社区.test_case.models import myunit, function
+from 子项目bbs社区.test_case.page_obj.loginPage import login
+from 子项目bbs社区.test_case.models import myunit, function
 
 
 class loginTest(myunit.MyTest):

@@ -40,7 +40,7 @@ def new_report(filepath):
 
 if __name__ == '__main__':
     now = time.strftime('%Y-%m-%d-%H_%M_%S')
-    filename = './子项目bbs社区/report/HTMLreport/' + now + 'result.html'
+    filename = './子项目bbs社区/report/HTMLreport/' + now + '_result.html'
     fp = open(filename, 'wb')
     runner = HTMLTestRunner(stream=fp,
                             title='163邮箱登录自动化测试报告',
